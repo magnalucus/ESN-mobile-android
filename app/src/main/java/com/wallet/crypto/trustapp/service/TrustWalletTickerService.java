@@ -23,6 +23,7 @@ public class TrustWalletTickerService implements TickerService {
     private final OkHttpClient httpClient;
     private final Gson gson;
     private ApiClient apiClient;
+    String TRUST_API_URL="https://www.ddengle.com" ;
 
     public TrustWalletTickerService(
             OkHttpClient httpClient,
